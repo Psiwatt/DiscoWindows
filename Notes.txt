@@ -1,0 +1,36 @@
+~~~NOTES~~~~
+1) Things we still need to accomplish
+-- make the tiles "flash" to the beat of the music (see bpm's below)
+-- find way to switch around the big tiles for increased difficulty
+-- full database of music
+
+2) fun things to add
+-- below the game in the empty space have a "power bar" type thing, or
+some sort of meter
+-- would an animated background be asking for too much...?
+-- randomly throughout gameplay have spontaneous words pop up
+and fade out, based on the player's gameplay. i.e. "awesome!", "fantastic!"
+or "boo!", "you can do better!"
+-- improve the score display
+-- for the player to have the ability to choose the genre of music and difficulty
+
+~~~ OTHER NOTES ~~~~~~
+My display code is pretty sloppy and excessive. I figured for now it's not a 
+big deal, but later when we add other stuff we're going to want to minimize
+the code so it would be best to start optimizing the display code
+
+ABOUT STORYBOARD
+Lua seems to run everything at once, not waiting for the previous thing to
+finish, like Java. This will make "multithreading" easy but to get everything
+to run in order (menu, animation, gameplay...) I used Corona's storyboard,
+which is basically a way to control the flow of different "scenes" in the game.
+It's pretty easy to use. Each script file can be a "scene" (or you can have
+multiple scenes in one file) Just look at my code and you can figure it out
+quickly.
+
+http://docs.coronalabs.com/api/
+^^or look at the docs^^
+
+I think that that's everything. The code should all be well-commented so you
+shouldn't have toooo much trouble following it.]
+LESSSGOOOOO
